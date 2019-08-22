@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61E64AB230E319F004E4FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E64AA230E319F004E4FC9 /* AppDelegate.swift */; };
+		B61E64AD230E319F004E4FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E64AC230E319F004E4FC9 /* ViewController.swift */; };
+		B61E64B0230E319F004E4FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61E64AE230E319F004E4FC9 /* Main.storyboard */; };
+		B61E64B2230E31A1004E4FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61E64B1230E31A1004E4FC9 /* Assets.xcassets */; };
+		B61E64B5230E31A1004E4FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61E64B3230E31A1004E4FC9 /* LaunchScreen.storyboard */; };
+		B61E64C0230E31A1004E4FC9 /* YunTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E64BF230E31A1004E4FC9 /* YunTalkTests.swift */; };
+		B61E64CB230E31A1004E4FC9 /* YunTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E64CA230E31A1004E4FC9 /* YunTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61E64BC230E31A1004E4FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61E649F230E319F004E4FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61E64A6230E319F004E4FC9;
+			remoteInfo = YunTalk;
+		};
+		B61E64C7230E31A1004E4FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61E649F230E319F004E4FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61E64A6230E319F004E4FC9;
+			remoteInfo = YunTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61E64A7230E319F004E4FC9 /* YunTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E64AA230E319F004E4FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B61E64AC230E319F004E4FC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B61E64AF230E319F004E4FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61E64B1230E31A1004E4FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61E64B4230E31A1004E4FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61E64B6230E31A1004E4FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61E64BB230E31A1004E4FC9 /* YunTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E64BF230E31A1004E4FC9 /* YunTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunTalkTests.swift; sourceTree = "<group>"; };
+		B61E64C1230E31A1004E4FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61E64C6230E31A1004E4FC9 /* YunTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E64CA230E31A1004E4FC9 /* YunTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunTalkUITests.swift; sourceTree = "<group>"; };
+		B61E64CC230E31A1004E4FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61E64A4230E319F004E4FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64B8230E31A1004E4FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64C3230E31A1004E4FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61E649E230E319F004E4FC9 = {
+			isa = PBXGroup;
+			children = (
+				B61E64A9230E319F004E4FC9 /* YunTalk */,
+				B61E64BE230E31A1004E4FC9 /* YunTalkTests */,
+				B61E64C9230E31A1004E4FC9 /* YunTalkUITests */,
+				B61E64A8230E319F004E4FC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61E64A8230E319F004E4FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61E64A7230E319F004E4FC9 /* YunTalk.app */,
+				B61E64BB230E31A1004E4FC9 /* YunTalkTests.xctest */,
+				B61E64C6230E31A1004E4FC9 /* YunTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61E64A9230E319F004E4FC9 /* YunTalk */ = {
+			isa = PBXGroup;
+			children = (
+				B61E64AA230E319F004E4FC9 /* AppDelegate.swift */,
+				B61E64AC230E319F004E4FC9 /* ViewController.swift */,
+				B61E64AE230E319F004E4FC9 /* Main.storyboard */,
+				B61E64B1230E31A1004E4FC9 /* Assets.xcassets */,
+				B61E64B3230E31A1004E4FC9 /* LaunchScreen.storyboard */,
+				B61E64B6230E31A1004E4FC9 /* Info.plist */,
+			);
+			path = YunTalk;
+			sourceTree = "<group>";
+		};
+		B61E64BE230E31A1004E4FC9 /* YunTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B61E64BF230E31A1004E4FC9 /* YunTalkTests.swift */,
+				B61E64C1230E31A1004E4FC9 /* Info.plist */,
+			);
+			path = YunTalkTests;
+			sourceTree = "<group>";
+		};
+		B61E64C9230E31A1004E4FC9 /* YunTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B61E64CA230E31A1004E4FC9 /* YunTalkUITests.swift */,
+				B61E64CC230E31A1004E4FC9 /* Info.plist */,
+			);
+			path = YunTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61E64A6230E319F004E4FC9 /* YunTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61E64CF230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalk" */;
+			buildPhases = (
+				B61E64A3230E319F004E4FC9 /* Sources */,
+				B61E64A4230E319F004E4FC9 /* Frameworks */,
+				B61E64A5230E319F004E4FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YunTalk;
+			productName = YunTalk;
+			productReference = B61E64A7230E319F004E4FC9 /* YunTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61E64BA230E31A1004E4FC9 /* YunTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61E64D2230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalkTests" */;
+			buildPhases = (
+				B61E64B7230E31A1004E4FC9 /* Sources */,
+				B61E64B8230E31A1004E4FC9 /* Frameworks */,
+				B61E64B9230E31A1004E4FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61E64BD230E31A1004E4FC9 /* PBXTargetDependency */,
+			);
+			name = YunTalkTests;
+			productName = YunTalkTests;
+			productReference = B61E64BB230E31A1004E4FC9 /* YunTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B61E64C5230E31A1004E4FC9 /* YunTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61E64D5230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalkUITests" */;
+			buildPhases = (
+				B61E64C2230E31A1004E4FC9 /* Sources */,
+				B61E64C3230E31A1004E4FC9 /* Frameworks */,
+				B61E64C4230E31A1004E4FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61E64C8230E31A1004E4FC9 /* PBXTargetDependency */,
+			);
+			name = YunTalkUITests;
+			productName = YunTalkUITests;
+			productReference = B61E64C6230E31A1004E4FC9 /* YunTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61E649F230E319F004E4FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Seung Yun";
+				TargetAttributes = {
+					B61E64A6230E319F004E4FC9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B61E64BA230E31A1004E4FC9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B61E64A6230E319F004E4FC9;
+					};
+					B61E64C5230E31A1004E4FC9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B61E64A6230E319F004E4FC9;
+					};
+				};
+			};
+			buildConfigurationList = B61E64A2230E319F004E4FC9 /* Build configuration list for PBXProject "YunTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61E649E230E319F004E4FC9;
+			productRefGroup = B61E64A8230E319F004E4FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61E64A6230E319F004E4FC9 /* YunTalk */,
+				B61E64BA230E31A1004E4FC9 /* YunTalkTests */,
+				B61E64C5230E31A1004E4FC9 /* YunTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61E64A5230E319F004E4FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61E64B5230E31A1004E4FC9 /* LaunchScreen.storyboard in Resources */,
+				B61E64B2230E31A1004E4FC9 /* Assets.xcassets in Resources */,
+				B61E64B0230E319F004E4FC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64B9230E31A1004E4FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64C4230E31A1004E4FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61E64A3230E319F004E4FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61E64AD230E319F004E4FC9 /* ViewController.swift in Sources */,
+				B61E64AB230E319F004E4FC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64B7230E31A1004E4FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61E64C0230E31A1004E4FC9 /* YunTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E64C2230E31A1004E4FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61E64CB230E31A1004E4FC9 /* YunTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61E64BD230E31A1004E4FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61E64A6230E319F004E4FC9 /* YunTalk */;
+			targetProxy = B61E64BC230E31A1004E4FC9 /* PBXContainerItemProxy */;
+		};
+		B61E64C8230E31A1004E4FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61E64A6230E319F004E4FC9 /* YunTalk */;
+			targetProxy = B61E64C7230E31A1004E4FC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B61E64AE230E319F004E4FC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61E64AF230E319F004E4FC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61E64B3230E31A1004E4FC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61E64B4230E31A1004E4FC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61E64CD230E31A1004E4FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B61E64CE230E31A1004E4FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61E64D0230E31A1004E4FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61E64D1230E31A1004E4FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B61E64D3230E31A1004E4FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunTalk.app/YunTalk";
+			};
+			name = Debug;
+		};
+		B61E64D4230E31A1004E4FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunTalk.app/YunTalk";
+			};
+			name = Release;
+		};
+		B61E64D6230E31A1004E4FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YunTalk;
+			};
+			name = Debug;
+		};
+		B61E64D7230E31A1004E4FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YunTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.YunTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YunTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61E64A2230E319F004E4FC9 /* Build configuration list for PBXProject "YunTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61E64CD230E31A1004E4FC9 /* Debug */,
+				B61E64CE230E31A1004E4FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61E64CF230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61E64D0230E31A1004E4FC9 /* Debug */,
+				B61E64D1230E31A1004E4FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61E64D2230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61E64D3230E31A1004E4FC9 /* Debug */,
+				B61E64D4230E31A1004E4FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61E64D5230E31A1004E4FC9 /* Build configuration list for PBXNativeTarget "YunTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61E64D6230E31A1004E4FC9 /* Debug */,
+				B61E64D7230E31A1004E4FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61E649F230E319F004E4FC9 /* Project object */;
+}
