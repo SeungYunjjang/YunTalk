@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>263641815994-8mpccuf5cickfne4eo6g6021lhcedb9e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.263641815994-8mpccuf5cickfne4eo6g6021lhcedb9e</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>263641815994-n83fq3ld97rv78e87t9r131fs8a52dmr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCOEp4jInRGF6BVaOn5VZ9HR4fxuvyH4SQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>263641815994</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kr.co.YunTalk</string>
+	<key>PROJECT_ID</key>
+	<string>yuntalk-c7ff4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yuntalk-c7ff4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:263641815994:ios:2412fbab80670c3e</string>
+	<key>DATABASE_URL</key>
+	<string>https://yuntalk-c7ff4.firebaseio.com</string>
+</dict>
+</plist>

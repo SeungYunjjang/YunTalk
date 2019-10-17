@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YunTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="QmG-ml-QJc">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="lFM-cJ-vGs" customClass="LoginViewController" customModule="YunTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fcn-8Y-aoD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H0v-I4-6D3" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="15" y="184" width="384" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="PW" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcZ-RM-dso" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="15" y="223" width="384" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkB-t8-DAh">
+                                <rect key="frame" x="15" y="295" width="384" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtn:" destination="lFM-cJ-vGs" eventType="touchUpInside" id="HXr-NM-o42"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXE-O9-QhR">
+                                <rect key="frame" x="15" y="346" width="384" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BhN-U0-Elb" kind="show" id="JFl-O3-IM3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H0v-I4-6D3" firstAttribute="top" secondItem="fb1-0R-Oz7" secondAttribute="top" constant="140" id="5oF-1m-kON"/>
+                            <constraint firstItem="dkB-t8-DAh" firstAttribute="centerX" secondItem="tcZ-RM-dso" secondAttribute="centerX" id="6PO-gA-1rB"/>
+                            <constraint firstItem="oXE-O9-QhR" firstAttribute="top" secondItem="dkB-t8-DAh" secondAttribute="bottom" constant="21" id="GPe-J2-Pes"/>
+                            <constraint firstItem="H0v-I4-6D3" firstAttribute="leading" secondItem="fb1-0R-Oz7" secondAttribute="leading" constant="15" id="LaE-TM-637"/>
+                            <constraint firstItem="dkB-t8-DAh" firstAttribute="trailing" secondItem="tcZ-RM-dso" secondAttribute="trailing" id="Np1-td-Zh7"/>
+                            <constraint firstItem="tcZ-RM-dso" firstAttribute="top" secondItem="H0v-I4-6D3" secondAttribute="bottom" constant="15" id="RFc-T1-VLF"/>
+                            <constraint firstItem="dkB-t8-DAh" firstAttribute="top" secondItem="tcZ-RM-dso" secondAttribute="bottom" constant="48" id="UB7-xw-YLP"/>
+                            <constraint firstItem="oXE-O9-QhR" firstAttribute="leading" secondItem="dkB-t8-DAh" secondAttribute="leading" id="aKd-hb-5Jq"/>
+                            <constraint firstItem="oXE-O9-QhR" firstAttribute="trailing" secondItem="dkB-t8-DAh" secondAttribute="trailing" id="ggV-9s-jW1"/>
+                            <constraint firstItem="tcZ-RM-dso" firstAttribute="trailing" secondItem="H0v-I4-6D3" secondAttribute="trailing" id="lpb-UZ-wwy"/>
+                            <constraint firstItem="dkB-t8-DAh" firstAttribute="leading" secondItem="tcZ-RM-dso" secondAttribute="leading" id="tHz-ZY-h9B"/>
+                            <constraint firstItem="fb1-0R-Oz7" firstAttribute="trailing" secondItem="H0v-I4-6D3" secondAttribute="trailing" constant="15" id="ubc-TW-rYc"/>
+                            <constraint firstItem="tcZ-RM-dso" firstAttribute="leading" secondItem="H0v-I4-6D3" secondAttribute="leading" id="xU2-ul-GGk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fb1-0R-Oz7"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTF" destination="H0v-I4-6D3" id="Se8-q8-Ot9"/>
+                        <outlet property="loginBtn" destination="dkB-t8-DAh" id="A9Y-mI-rCy"/>
+                        <outlet property="pwTF" destination="tcZ-RM-dso" id="1NE-sK-U8E"/>
+                        <outlet property="signBtn" destination="oXE-O9-QhR" id="ovK-0g-pwM"/>
+                        <segue destination="wsL-Ii-HRt" kind="show" identifier="show_main_page" id="W3h-uH-dJg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H4m-Hy-GJB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1406" y="116"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="jWN-Hs-ZKd">
+            <objects>
+                <viewController id="BhN-U0-Elb" customClass="SignUpViewController" customModule="YunTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0an-DZ-HQ9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HuY-by-wav" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="10" y="223" width="394" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Pw" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Wo-FB-AAA" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="10" y="262" width="394" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-u2-6Lw">
+                                <rect key="frame" x="10" y="333" width="394" height="30"/>
+                                <state key="normal" title="확인">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="signupBtn:" destination="BhN-U0-Elb" eventType="touchUpInside" id="4Aj-65-jWC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ak6-xl-hOa">
+                                <rect key="frame" x="10" y="387" width="394" height="30"/>
+                                <state key="normal" title="취소">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelBtn:" destination="BhN-U0-Elb" eventType="touchUpInside" id="4e4-xj-hED"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="701-JS-zNL" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="10" y="184" width="394" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTS-3Q-nUH">
+                                <rect key="frame" x="157" y="59" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="EyL-46-tec"/>
+                                    <constraint firstAttribute="width" constant="100" id="Vc6-aZ-dMf"/>
+                                </constraints>
+                                <state key="normal" image="add_icon"/>
+                                <connections>
+                                    <action selector="addPictureBtn:" destination="BhN-U0-Elb" eventType="touchUpInside" id="3Dn-ex-FWJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dJb-u2-6Lw" firstAttribute="leading" secondItem="0Wo-FB-AAA" secondAttribute="leading" id="1vr-Rs-vxG"/>
+                            <constraint firstItem="701-JS-zNL" firstAttribute="top" secondItem="LTS-3Q-nUH" secondAttribute="bottom" constant="25" id="2a5-Ih-yMQ"/>
+                            <constraint firstItem="0Wo-FB-AAA" firstAttribute="leading" secondItem="HuY-by-wav" secondAttribute="leading" id="7ov-Co-J3u"/>
+                            <constraint firstItem="0Wo-FB-AAA" firstAttribute="top" secondItem="HuY-by-wav" secondAttribute="bottom" constant="15" id="AFf-EF-vKv"/>
+                            <constraint firstItem="Ak6-xl-hOa" firstAttribute="trailing" secondItem="dJb-u2-6Lw" secondAttribute="trailing" id="BEO-lY-ICH"/>
+                            <constraint firstItem="701-JS-zNL" firstAttribute="leading" secondItem="ue7-T4-GzS" secondAttribute="leading" constant="10" id="BvK-0m-BIv"/>
+                            <constraint firstItem="Ak6-xl-hOa" firstAttribute="top" secondItem="dJb-u2-6Lw" secondAttribute="bottom" constant="24" id="GP5-9x-aof"/>
+                            <constraint firstItem="dJb-u2-6Lw" firstAttribute="trailing" secondItem="0Wo-FB-AAA" secondAttribute="trailing" id="JC0-Rx-geK"/>
+                            <constraint firstItem="701-JS-zNL" firstAttribute="centerX" secondItem="ue7-T4-GzS" secondAttribute="centerX" id="JdA-OB-LkJ"/>
+                            <constraint firstItem="Ak6-xl-hOa" firstAttribute="centerX" secondItem="dJb-u2-6Lw" secondAttribute="centerX" id="MBA-Fv-YEP"/>
+                            <constraint firstItem="HuY-by-wav" firstAttribute="leading" secondItem="701-JS-zNL" secondAttribute="leading" id="MsR-m3-glG"/>
+                            <constraint firstItem="ue7-T4-GzS" firstAttribute="trailing" secondItem="701-JS-zNL" secondAttribute="trailing" constant="10" id="Vzb-7d-NRr"/>
+                            <constraint firstItem="0Wo-FB-AAA" firstAttribute="trailing" secondItem="HuY-by-wav" secondAttribute="trailing" id="ibO-BZ-G02"/>
+                            <constraint firstItem="LTS-3Q-nUH" firstAttribute="top" secondItem="ue7-T4-GzS" secondAttribute="top" constant="15" id="im7-Re-fJX"/>
+                            <constraint firstItem="HuY-by-wav" firstAttribute="trailing" secondItem="701-JS-zNL" secondAttribute="trailing" id="jiL-QB-cTn"/>
+                            <constraint firstItem="dJb-u2-6Lw" firstAttribute="top" secondItem="0Wo-FB-AAA" secondAttribute="bottom" constant="47" id="psH-ma-QC4"/>
+                            <constraint firstItem="HuY-by-wav" firstAttribute="top" secondItem="701-JS-zNL" secondAttribute="bottom" constant="15" id="sar-fe-hQv"/>
+                            <constraint firstItem="LTS-3Q-nUH" firstAttribute="centerX" secondItem="ue7-T4-GzS" secondAttribute="centerX" id="ssR-ol-osr"/>
+                            <constraint firstItem="dJb-u2-6Lw" firstAttribute="centerX" secondItem="0Wo-FB-AAA" secondAttribute="centerX" id="t2j-wK-EcJ"/>
+                            <constraint firstItem="Ak6-xl-hOa" firstAttribute="leading" secondItem="dJb-u2-6Lw" secondAttribute="leading" id="uby-DS-bhV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ue7-T4-GzS"/>
+                    </view>
+                    <connections>
+                        <outlet property="cancelBtn" destination="Ak6-xl-hOa" id="pek-Ao-Bu6"/>
+                        <outlet property="confirmBtn" destination="dJb-u2-6Lw" id="Tgh-SQ-zOz"/>
+                        <outlet property="emailTF" destination="701-JS-zNL" id="SLV-QY-pfs"/>
+                        <outlet property="imageBtn" destination="LTS-3Q-nUH" id="d7x-5d-0e2"/>
+                        <outlet property="nameTF" destination="HuY-by-wav" id="wwk-Mz-Og4"/>
+                        <outlet property="pwTF" destination="0Wo-FB-AAA" id="zvj-7j-bo5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VwM-0M-Gne" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2301" y="-224"/>
+        </scene>
+        <!--people-->
+        <scene sceneID="Uml-cs-bBn">
+            <objects>
+                <viewController id="SzH-mf-W6R" customClass="PeopleViewController" customModule="YunTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uqP-kp-fe4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.37254901959999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KOm-NU-OAw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="people" image="people_icon" selectedImage="people_icon" id="tQj-ic-cNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M7s-7x-008" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3452" y="9"/>
+        </scene>
+        <!--chat-->
+        <scene sceneID="8iR-eg-xmN">
+            <objects>
+                <viewController id="w3O-fV-Oj4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LxA-lt-D9x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.55390369250000004" blue="0.090436328129999993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Zt1-Xs-btj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="chat" image="chat_icon" selectedImage="chat_icon" id="5wx-ck-z5o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ki-13-Ijj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3451" y="702"/>
+        </scene>
+        <!--setting-->
+        <scene sceneID="S41-zi-ojH">
+            <objects>
+                <viewController id="4Js-qZ-xhS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5nC-Z5-k7M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.80392156859999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Pok-ig-h0S"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="setting" image="setting_icon" selectedImage="setting_icon" id="dCo-dS-cM7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LzV-gB-QuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3451" y="1375"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YmT-Hg-quf">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wsL-Ii-HRt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w6V-OD-hN5">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SzH-mf-W6R" kind="relationship" relationship="viewControllers" id="L1w-O9-9Tu"/>
+                        <segue destination="w3O-fV-Oj4" kind="relationship" relationship="viewControllers" id="owa-TF-NiB"/>
+                        <segue destination="4Js-qZ-xhS" kind="relationship" relationship="viewControllers" id="8oi-tX-cvY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kk-o3-KtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2298.5507246376815" y="485.49107142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add_icon" width="128" height="128"/>
+        <image name="chat_icon" width="36" height="36"/>
+        <image name="people_icon" width="36" height="36"/>
+        <image name="setting_icon" width="36" height="36"/>
+    </resources>
+</document>

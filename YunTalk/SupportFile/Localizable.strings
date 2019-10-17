@@ -1,0 +1,123 @@
+
+
+
+login = "로그인";
+confirm = "확인";
+cancel = "취소";
+guide = "안내";
+following = "팔로잉";
+follower = "팔로워";
+exchange = "교환";
+refund = "반품";
+
+product_inquire_list = "상품문의";
+order_inquire_list = "주문/결제/취소문의";
+exchange_inquire_list = "교환/반품문의";
+delivery_inquire_list = "배송문의";
+member_inquire_list = "회원/등급문의";
+ppoint_inquire_list = "P포인트문의";
+coupon_inquire_list = "쿠폰문의";
+other_inquire_list = "기타문의";
+mine_inquire_list = "내문의내역";
+wirte_inquire_list = "문의하기";
+
+product_subscript_inquire_list = "상품에 관해 궁금한 점이 있으십니까?";
+order_subscript_inquire_list = "주문/결제/취소가 어려우신가요?";
+exchange_subscript_inquire_list = "교환이나 반품 시 어려운이 있으십니까?";
+delivery_subscript_inquire_list = "배송에 대해 궁금한 점이 있으십니까?";
+member_subscript_inquire_list = "회원 및 등급에 대해 궁급하십니까?";
+ppoint_subscript_inquire_list = "P포인트 적립 및 사용에 대해 궁금한 점이 있으십니까?";
+coupon_subscript_inquire_list = "쿠폰에 대해 궁금한 점이 있으십니까?";
+other_subscript_inquire_list = "기타 다른 문의가 있으시다면 기타문의 게시판을 이용해주세요.";
+mine_subscript_inquire_list = "회원님이 문의하신 내역입니다.";
+wirte_subscript_inquire_list = "상세히 문의해주시면 더욱 자세한 답변이 가능합니다.";
+
+
+toast_msg_server_error = "서버 통신 에러, 잠시 후 다시 시도해주세요.";
+
+toast_msg_login_result_1 = "이미 등록된 이메일 계정이 있습니다.\n";
+toast_msg_login_result_2 = "계정으로 변경하시겠습니까?";
+toast_msg_login_result_3 = "계정변환에 실패하였습니다.";
+toast_msg_login_result_4 = "로그인 되었습니다.";
+toast_msg_login_result_5 = "아이디와 비밀번호를 확인해주세요.";
+
+toast_msg_join_result_1 = "필수 항목에 동의해주세요";
+
+toast_msg_create_id_result_1 = "이미 존재하는 이메일입니다.";
+toast_msg_create_id_result_2 = "이메일 형식이 맞지 않습니다.";
+toast_msg_create_id_result_3 = "비밀번호 형식이 맞지 않습니다.";
+toast_msg_create_id_result_4 = "비밀번호가 동일하지 않습니다.";
+
+toast_msg_list_not_entered = "입력하지 않은 항목이 있습니다.";
+
+toast_msg_post_zipcode_result = "검색어를 입력해주세요.";
+
+toast_msg_create_info_result_1 = "아이디에 불필요한 문자가 포함되어있습니다.";
+toast_msg_create_info_result_2 = "이미 등록된 아이디가 있습니다.";
+toast_msg_create_info_result_3 = "성별을 선택해주세요";
+
+toast_msg_find_pw_result = "아이디 형식이 잘못되었습니다.";
+toast_msg_find_id_result_1 = "이름을 입력해주세요";
+toast_msg_find_id_result_2 = "생년월일이 잘못 되었습니다.";
+toast_msg_find_id_result_3 = "연락처 형식이 잘못되었습니다.";
+toast_msg_find_id_result_4 = "생년월일을 확인해주세요";
+toast_msg_find_id_result_5 = "일치하는 데이터를 찾을 수 없습니다.";
+
+
+text_field_road_placeholder = "도로명 + 건물번호";
+
+alert_sex_list_title = "성별선택";
+alert_sex_list_fisrt_content = "남자";
+alert_sex_list_second_content = "여자";
+
+alert_profile_image_title_content = "프로필사진";
+alert_profile_back_image_title_content = "배경사진";
+alert_profile_image_first_content = "사진 앨범에서 선택";
+alert_profile_image_second_content = "사진촬영";
+alert_profile_image_third_content = "기본 이미지로 변경";
+
+alert_center_term_title = "이용약관";
+alert_center_personal_info_title = "개인정보 취급방침";
+alert_center_policy_title = "운영정책";
+
+second_pw_current_msg = "현재 2차 비밀번호\n(숫자 6자리)";
+second_pw_msg = "2차 비밀번호 설정하기\n(숫자 6자리)";
+second_pw_check_msg = "2차 비밀번호 설정확인\n(숫자 6자리)";
+second_pw_change_msg = "변경할 2차 비밀번호 설정하기\n(숫자 6자리)";
+second_pw_chage_check_msg = "변경할 2차 비밀번호 설정확인\n(숫자 6자리)";
+second_pw_complete_msg = "2차 비밀번호 설정이 완료되었습니다.";
+second_pw_uncheck_msg = "비밀번호가 일치하지 않습니다.";
+second_pw_uncheck_five_time_msg = "비밀번호를 5회 틀렸습니다.\n본인인증을 다시 해주시기 바랍니다.";
+
+cancel_in_process = "취소처리중";
+exchange_in_process = "교환처리중";
+refund_in_process = "반품처리중";
+
+change_size = "사이즈변경";
+select_size = "사이즈선택";
+change_color = "색상변경";
+select_color = "색상선택";
+
+apply_cancel = "신청취소";
+cancel_apply_msg = "취소신청을 취소하시겠습니까?";
+exchange_apply_msg = "교환신청을 취소하시겠습니까?";
+refund_apply_msg = "반품신청을 취소하시겠습니까?";
+
+order_cancel = "주문취소";
+cancel_apply = "취소신청";
+exchange_apply = "교환신청";
+refund_apply = "반품신청";
+
+product_order_request_start_msg = "해당 제품에 대한 ";
+product_order_request_end_msg = "을 하시겠습니까?";
+product_order_request_end_second_msg = "를 하시겠습니까?";
+
+cancel_request_title = "취소요청";
+exchange_request_title = "교환요청";
+refund_request_title = "환불요청";
+
+cancel_reason_title = "취소사유";
+exchnage_reason_title = "교환사유";
+refund_reason_title = "반품사유";
+
+
